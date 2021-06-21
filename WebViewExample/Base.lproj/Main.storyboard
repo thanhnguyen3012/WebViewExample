@@ -29,10 +29,11 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </activityIndicatorView>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="hzy-mJ-Zhx">
-                                <rect key="frame" x="152.5" y="64" width="109" height="32"/>
+                                <rect key="frame" x="68" y="64" width="278" height="32"/>
                                 <segments>
                                     <segment title="WebP"/>
                                     <segment title="aPNG"/>
+                                    <segment title="Local HTML"/>
                                 </segments>
                                 <connections>
                                     <action selector="changeStateSegmentedControl:" destination="BYZ-38-t0r" eventType="valueChanged" id="dka-Nl-6Ny"/>

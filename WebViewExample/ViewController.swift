@@ -38,11 +38,30 @@ class ViewController: UIViewController {
         myWebView.load(request)
     }
     
+    func loadWebView(localFileName: String) {
+        do {
+            guard let filePath = Bundle.main.path(forResource: localFileName, ofType: "html") else {
+                print ("File reading error")
+                return
+            }
+
+            let contents =  try String(contentsOfFile: filePath, encoding: .utf8)
+            let baseUrl = URL(fileURLWithPath: filePath)
+            myWebView.loadHTMLString(contents as String, baseURL: baseUrl)
+        }
+        catch {
+            print("File HTML error")
+        }
+    }
+    
     @IBAction func changeStateSegmentedControl(_ sender: UISegmentedControl) {
         switch sender.selectedSegmentIndex {
         case 1: // aPNG
             print("Load APNG")
             loadWebView(url: apngURL)
+        case 2: // Local WebP
+            print("Load Local HTML")
+            loadWebView(localFileName: "index")
         default: // 0: WebP
             print("Load wepb")
             loadWebView(url: webpURL)

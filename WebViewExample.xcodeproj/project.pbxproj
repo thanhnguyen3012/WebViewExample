@@ -13,6 +13,9 @@
 		84191A392680340A0002A2E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84191A372680340A0002A2E4 /* Main.storyboard */; };
 		84191A3B2680340D0002A2E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84191A3A2680340D0002A2E4 /* Assets.xcassets */; };
 		84191A3E2680340D0002A2E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84191A3C2680340D0002A2E4 /* LaunchScreen.storyboard */; };
+		84191A53268078800002A2E4 /* Animated.png in Resources */ = {isa = PBXBuildFile; fileRef = 84191A52268078800002A2E4 /* Animated.png */; };
+		84191A55268080970002A2E4 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 84191A54268080970002A2E4 /* index.html */; };
+		84191A572680853C0002A2E4 /* Animation.webp in Resources */ = {isa = PBXBuildFile; fileRef = 84191A562680853C0002A2E4 /* Animation.webp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		84191A3A2680340D0002A2E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84191A3D2680340D0002A2E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84191A3F2680340D0002A2E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84191A52268078800002A2E4 /* Animated.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Animated.png; sourceTree = "<group>"; };
+		84191A54268080970002A2E4 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		84191A562680853C0002A2E4 /* Animation.webp */ = {isa = PBXFileReference; lastKnownFileType = file; path = Animation.webp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +62,7 @@
 		84191A302680340A0002A2E4 /* WebViewExample */ = {
 			isa = PBXGroup;
 			children = (
+				84191A472680711B0002A2E4 /* Resources */,
 				84191A312680340A0002A2E4 /* AppDelegate.swift */,
 				84191A332680340A0002A2E4 /* SceneDelegate.swift */,
 				84191A352680340A0002A2E4 /* ViewController.swift */,
@@ -65,6 +72,16 @@
 				84191A3F2680340D0002A2E4 /* Info.plist */,
 			);
 			path = WebViewExample;
+			sourceTree = "<group>";
+		};
+		84191A472680711B0002A2E4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				84191A54268080970002A2E4 /* index.html */,
+				84191A562680853C0002A2E4 /* Animation.webp */,
+				84191A52268078800002A2E4 /* Animated.png */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +143,9 @@
 			files = (
 				84191A3E2680340D0002A2E4 /* LaunchScreen.storyboard in Resources */,
 				84191A3B2680340D0002A2E4 /* Assets.xcassets in Resources */,
+				84191A572680853C0002A2E4 /* Animation.webp in Resources */,
+				84191A55268080970002A2E4 /* index.html in Resources */,
+				84191A53268078800002A2E4 /* Animated.png in Resources */,
 				84191A392680340A0002A2E4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
